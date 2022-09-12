@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "next-boilerplate": "apps/next-boilerplate",
+    "next-boilerplate-e2e": "apps/next-boilerplate-e2e"
+  }
+}
