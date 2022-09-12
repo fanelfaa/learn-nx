@@ -1,4 +1,5 @@
 import styles from './index.module.scss';
+import { Container } from '@chakra-ui/react';
 
 export function Index() {
   /*
@@ -9,7 +10,7 @@ export function Index() {
   return (
     <div className={styles.page}>
       <div className="wrapper">
-        <div className="container">
+        <Container maxW="container.lg">
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
@@ -406,7 +407,7 @@ export function Index() {
               />
             </svg>
           </p>
-        </div>
+        </Container>
       </div>
     </div>
   );
