@@ -20,7 +20,7 @@ export function Index() {
 
           <div id="hero" className="rounded">
             <div className="text-container">
-              <h2>
+              <Heading as="h2">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -35,7 +35,7 @@ export function Index() {
                   />
                 </svg>
                 <span>You&apos;re up and running</span>
-              </h2>
+              </Heading>
               <a href="#commands"> What&apos;s next? </a>
             </div>
             <div className="logo-container">
