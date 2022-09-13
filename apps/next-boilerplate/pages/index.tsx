@@ -1,5 +1,5 @@
 import styles from './index.module.scss';
-import { Container } from '@chakra-ui/react';
+import { Container, Heading } from '@chakra-ui/react';
 
 export function Index() {
   /*
@@ -12,10 +12,10 @@ export function Index() {
       <div className="wrapper">
         <Container maxW="container.lg">
           <div id="welcome">
-            <h1>
+            <Heading as="h1">
               <span> Hello there, </span>
               Welcome next-boilerplate 👋
-            </h1>
+            </Heading>
           </div>
 
           <div id="hero" className="rounded">
