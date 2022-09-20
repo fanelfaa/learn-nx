@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "next-boilerplate": "apps/next-boilerplate",
-    "next-boilerplate-e2e": "apps/next-boilerplate-e2e"
+    "next-boilerplate-e2e": "apps/next-boilerplate-e2e",
+    "ui": "libs/ui"
   }
 }

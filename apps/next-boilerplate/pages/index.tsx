@@ -1,5 +1,6 @@
 import styles from './index.module.scss';
 import { Container, Heading } from '@chakra-ui/react';
+import { Footer, Navbar } from '@learn-nx/ui';
 
 export function Index() {
   /*
@@ -9,6 +10,8 @@ export function Index() {
    */
   return (
     <div className={styles.page}>
+      <Navbar />
+      <Footer />
       <div className="wrapper">
         <Container maxW="container.lg">
           <div id="welcome">
